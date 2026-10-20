@@ -1,0 +1,28 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment settings
+.env
+.env.*
+
+# Editors and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated data and model files
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
